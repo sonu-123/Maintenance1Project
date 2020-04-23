@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite-1"  >
+<test name="Test Case-1" >
+<classes>
+<class name="com.Maintenance.tests.TC_01_Product_Master" />
+</classes> 
+</test>
+<test name="Test Case-2" >
+<classes>
+<class name="com.Maintenance.tests.TC_02_Inventory_Master" />
+</classes> 
+</test>
+<test name="Test Case-3" >
+<classes>
+<class name="com.Maintenance.tests.TC_03_Customer_Master" />
+</classes> 
+</test>
+</suite>
+

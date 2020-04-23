@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48511" started-at="2020-04-23T08:06:52Z" finished-at="2020-04-23T08:07:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48511" started-at="2020-04-23T08:06:52Z" finished-at="2020-04-23T08:07:41Z">
+      <class name="com.Maintenance.tests.TC_06_Accounts_Master">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.Maintenance.tests.TC_06_Accounts_Master@458c1321]" name="beforeClass" is-config="true" duration-ms="24458" started-at="2020-04-23T08:06:52Z" finished-at="2020-04-23T08:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Create_Customer_Accounts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Maintenance.tests.TC_06_Accounts_Master@458c1321]" name="Create_Customer_Accounts" duration-ms="12178" started-at="2020-04-23T08:07:18Z" data-provider="excelData_Customer_Accounts" finished-at="2020-04-23T08:07:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test_CustomerAccount_1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test_Customer_1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9995566698]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8888885558]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[t4@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test address]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1600]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Debit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Customer_Accounts -->
+        <test-method status="PASS" signature="Create_Vender_Accounts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.Maintenance.tests.TC_06_Accounts_Master@458c1321]" name="Create_Vender_Accounts" duration-ms="10372" started-at="2020-04-23T08:07:30Z" data-provider="excelData_Vender_Accounts" finished-at="2020-04-23T08:07:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test_VenderAccount_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test_Customer_1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9995566686]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8888885587]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[t3@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test address]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Credit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Vender_Accounts -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Maintenance.tests.TC_06_Accounts_Master@458c1321]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-04-23T08:07:41Z" finished-at="2020-04-23T08:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.Maintenance.tests.TC_06_Accounts_Master -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
